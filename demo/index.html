@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo Input Tags</title>
+	<!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+</head>
+<body><br>
+<div class="col-md-4">
+<input type="text" name="extags">
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('input[name=extags]').inputTags({
+		setValue : ['1','22','1'] // custom value
+	})
+
+    /*
+    * get value
+    * console.log($('input[name=extags]').val()); 
+    * output  1,22,1
+    */
+				
+	
+})
+</script>
+<script src="../js/tagsInput.js"></script>
+</body>
+</html>
