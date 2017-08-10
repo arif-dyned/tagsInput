@@ -1,5 +1,5 @@
 # tagsInput
-Plugins for tags input which allowes duplicates value
+Plugins for tags input which allows duplicates value
 
 How to use :
 
